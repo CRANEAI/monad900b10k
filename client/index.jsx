@@ -16,6 +16,9 @@
         //----------------------------------------------------------------------------------------------------------
         
         import signup from './components/signup.jsx'
+import payment from './components/payment.jsx'
+import live from './components/live.jsx'
+import create_account from './components/create account.jsx'
        
         //----------------------------------------------------------------------------------------------------------
         //Reducer
@@ -38,6 +41,9 @@
                     <Switch>
                         <Route path "/" component={signup}
                         <Route path="/signup" component={signup} /> 
+,<Route path="/payment" component={payment} /> 
+,<Route path="/live" component={live} /> 
+,<Route path="/create_account" component={create_account} /> 
 
                     </Switch>
                 </Router>
