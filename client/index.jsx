@@ -15,7 +15,8 @@
             //Parent Components
         //----------------------------------------------------------------------------------------------------------
         
-        import archibald_fountain._1a_prince_albe... from './components/archibald fountain. 1a prince albe....jsx'
+        import signup from './components/signup.jsx'
+import payment from './components/payment.jsx'
        
         //----------------------------------------------------------------------------------------------------------
         //Reducer
@@ -36,8 +37,9 @@
         
                 <Router basename="/" history={ history } >
                     <Switch>
-                        <Route path "/" component={archibald_fountain._1a_prince_albe...}
-                        <Route path="/archibald_fountain._1a_prince_albe..." component={archibald_fountain._1a_prince_albe...} /> 
+                        <Route path "/" component={signup}
+                        <Route path="/signup" component={signup} /> 
+,<Route path="/payment" component={payment} /> 
 
                     </Switch>
                 </Router>
