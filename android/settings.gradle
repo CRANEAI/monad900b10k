@@ -1,5 +1,5 @@
 
-        rootProject.name = 'Mon_3'
+        rootProject.name = 'MonDos'
 
         include ':app'
         /* add slim_filename application modules here */
