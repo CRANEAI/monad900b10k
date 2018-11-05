@@ -16,7 +16,6 @@
         //----------------------------------------------------------------------------------------------------------
         
         import signup from './components/signup.jsx'
-import payment from './components/payment.jsx'
        
         //----------------------------------------------------------------------------------------------------------
         //Reducer
@@ -39,7 +38,6 @@ import payment from './components/payment.jsx'
                     <Switch>
                         <Route path "/" component={signup}
                         <Route path="/signup" component={signup} /> 
-,<Route path="/payment" component={payment} /> 
 
                     </Switch>
                 </Router>
