@@ -4,13 +4,13 @@
  *
  * Project  - signup UNIT TESTS
  * Application Client
- * Mon 3
+ * MonDos
 */
 
-/* view has actions which trigger on events, view should should error messages and display activity indicator when processing */
-it("view has actions which trigger on events, view should should error messages and display activity indicator when processing", () => {
+/* the payment view has a back icon located at the very-top left of the view which on click will trigger the back() action */
+it("the payment view has a back icon located at the very-top left of the view which on click will trigger the back() action", () => {
   /* ToDo developer needs to complete unit test 
-               view has actions which trigger on events, view should should error messages and display activity indicator when processing
+               the payment view has a back icon located at the very-top left of the view which on click will trigger the back() action
                uncomment below and update the code to test
                 //instance.action(function(error) {
                 //  if (error) throw error;
