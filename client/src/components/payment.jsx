@@ -7,10 +7,23 @@ created by: FusionCode
 // Component Requirements
 //----------------------------------------------------------------------------------------------------------
 
-signup is a form
-signup view has a Input located at the mid-top center of the view. the placeholder text is email
-signup view has a Input located at the center center of the view. the placeholder text is password
-view has actions which trigger on events, view should should error messages and display activity indicator when processing
+the payment view has a Pager located at the very-top center of the view, correct text needs defined
+the create account view has a add icon located at the  right of the view which on click will trigger the add() action
+the create account view has a add icon located at the top right of the view which on click will trigger the add() action
+the create account view has a back icon located at the very-top right of the view which on click will trigger the back() action
+the create account view has a back icon located at the very-top left of the view which on click will trigger the back() action
+the signup view has a add icon located at the  right of the view which on click will trigger the add() action
+the signup view has a add icon located at the top right of the view which on click will trigger the add() action
+the signup view has a back icon located at the very-top right of the view which on click will trigger the back() action
+the signup view has a back icon located at the very-top left of the view which on click will trigger the back() action
+the live view has a add icon located at the  right of the view which on click will trigger the add() action
+the live view has a add icon located at the top right of the view which on click will trigger the add() action
+the live view has a back icon located at the very-top right of the view which on click will trigger the back() action
+the live view has a back icon located at the very-top left of the view which on click will trigger the back() action
+the payment view has a add icon located at the  right of the view which on click will trigger the add() action
+the payment view has a add icon located at the top right of the view which on click will trigger the add() action
+the payment view has a back icon located at the very-top right of the view which on click will trigger the back() action
+the payment view has a back icon located at the very-top left of the view which on click will trigger the back() action
 
 */
         
@@ -38,8 +51,6 @@ city : '',
 state : '', 
 zip : '', 
 country : '', 
-email : '', 
-password : '', 
 
             }
     
